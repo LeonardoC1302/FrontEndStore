@@ -17,12 +17,30 @@
     </header>
     
     <nav class="navigation">
-        <a class="navigation__link navigation__link--active" href="index.html">Store</a>
+        <a class="navigation__link" href="index.html">Store</a>
         <a class="navigation__link" href="aboutUs.html">About Us</a>
     </nav>
 
     <main class="container">
-        <h1>Product</h1>
+        <h1>ReactJS</h1>
+        <div class="shirt">
+            <img src="img/3.jpg" alt="productImage" class="shirt__img">
+            <div class="shirt__content">
+                <p>Voluptate magna nulla irure laborum magna enim deserunt Lorem veniam irure excepteur laborum. Excepteur proident pariatur aliqua sint mollit ut mollit consectetur tempor laborum labore fugiat veniam commodo. Proident incididunt minim aliqua elit proident id eu cupidatat laborum ullamco.</p>
+
+                <form class="productForm">
+                    <select class="form__field">
+                        <option class="form__option" disabled selected>-- Select your size --</option>
+                        <option class="form__option">Small</option>
+                        <option class="form__option">Medium</option>
+                        <option class="form__option">Large</option>
+                    </select>
+
+                    <input class="form__field" type="number" placeholder="Quantity" min="1">
+                    <input class="form__submit" type="submit" value="Add to Cart">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
